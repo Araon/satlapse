@@ -14,9 +14,7 @@ Scrape satellite imagery from [MOSDAC](https://www.mosdac.gov.in) (ISRO's Meteor
 ### Requirements
 
 - Python **3.9+**
-- [UV](https://docs.astral.sh/uv/) (recommended) or pip
-
-### Install with UV
+- [UV](https://docs.astral.sh/uv/)
 
 ```bash
 # Clone the repo
@@ -25,14 +23,6 @@ cd MOSDAC_Video_Generator
 
 # Create a virtual environment and install dependencies
 uv sync
-```
-
-### Install with pip
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -e .
 ```
 
 ---
@@ -111,7 +101,7 @@ If a day or time slot has no image (cloud cover, no satellite pass, data gap), i
 MOSDAC_Video_Generator/
 ├── main.py          # CLI entry point
 ├── helper.py        # Timestamp & date helpers
-├── pyproject.toml   # Project config (UV/pip compatible)
+├── pyproject.toml   # Project config (UV)
 ├── .gitignore
 ├── README.md
 └── demos/           # Example output GIFs

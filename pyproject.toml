@@ -16,10 +16,3 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/Araon/MOSDAC_Video_Generator"
-
-[build-system]
-requires = ["setuptools>=68.0"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools.packages.find]
-where = ["."]
