@@ -1,8 +1,24 @@
-__pycache__
-images
-out.avi
-.vscode
-dates.py
-video.py
-images_cyclone
-output
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# UV
+.uv/
+
+# IDE
+.vscode/
+.idea/
+
+# Project-specific
+images/
+output/
+*.avi
+*.mp4
