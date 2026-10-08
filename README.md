@@ -1,6 +1,6 @@
 <h1 align="center">MOSDAC Video Generator</h1>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Araon/MOSDAC_Video_Generator/master/demos/INSAT-3D-2.gif">
+  <img src="https://raw.githubusercontent.com/Araon/satlapse/master/demos/INSAT-3D-2.gif">
 </p>
 
 Scrape satellite imagery from [MOSDAC](https://www.mosdac.gov.in) (ISRO's Meteorological & Oceanographic Satellite Data Archive Centre) and compile frames into timelapse videos.
@@ -18,8 +18,8 @@ Scrape satellite imagery from [MOSDAC](https://www.mosdac.gov.in) (ISRO's Meteor
 
 ```bash
 # Clone the repo
-git clone https://github.com/Araon/MOSDAC_Video_Generator.git
-cd MOSDAC_Video_Generator
+git clone https://github.com/Araon/satlapse.git
+cd satlapse
 
 # Create a virtual environment and install dependencies
 uv sync
@@ -98,7 +98,7 @@ If a day or time slot has no image (cloud cover, no satellite pass, data gap), i
 ## Project structure
 
 ```
-MOSDAC_Video_Generator/
+satlapse/
 ├── main.py          # CLI entry point
 ├── helper.py        # Timestamp & date helpers
 ├── pyproject.toml   # Project config (UV)
