@@ -1,11 +1,22 @@
-<h1 align="center">MOSDAC Video Generator</h1>
+<h1 align="center">satlapse</h1>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Araon/satlapse/master/demos/INSAT-3D-2.gif">
+  <img src="https://raw.githubusercontent.com/Araon/satlapse/master/demos/GOES19-GEOCOLOR-oct.gif" width="600">
+  <br><em>GOES-19 Full Disk — GeoColor, October 2026</em>
 </p>
 
-Scrape satellite imagery from [MOSDAC](https://www.mosdac.gov.in) (ISRO's Meteorological & Oceanographic Satellite Data Archive Centre) and compile frames into timelapse videos.
+Download geostationary satellite imagery from public sources and compile frames into timelapse videos.
 
-**Example**: The demo above shows two cyclones hitting the Indian peninsula in May, captured by INSAT-3D across 30 days with over 550 individual images. The sun's reflection gliding across the ocean from right to left marks the passage of each day.
+**Sources:**
+- **NOAA GOES** (GOES-18 West, GOES-19 East) — free, public CDN, no API key
+- **MOSDAC / ISRO** (INSAT-3D, 3DR, 3DS) — Indian satellite data
+
+### Demos
+
+| Source | Satellite | Description |
+|--------|-----------|-------------|
+| <img src="https://raw.githubusercontent.com/Araon/satlapse/master/demos/GOES19-GEOCOLOR-oct.gif" width="300"> | GOES-19 (GeoColor) | Full-disk true colour / IR night composite, October 2026 |
+| <img src="https://raw.githubusercontent.com/Araon/satlapse/master/demos/INSAT-3D.gif" width="300"> | INSAT-3D (IR) | Cyclone timelapse over the Indian peninsula, May 2021 |
+| <img src="https://raw.githubusercontent.com/Araon/satlapse/master/demos/INSAT-3D-2.gif" width="300"> | INSAT-3D (IR) | A second pass showing twin cyclones, 550+ frames over 30 days |
 
 ---
 
